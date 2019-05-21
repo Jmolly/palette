@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Palette</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/fonts.css">
+</head>
+
+<body>
+  <header class="header">
+    <span class="menu-toggle"></span>
+    <h1 class="heading">CodeJam - Palette</h1>
+    <span class="dots"></span>
+  </header>
+  <main class="main">
+    <div>
+      <div class="tool-box">
+        <ul class="tool-list list">
+          <li class="tool-item">
+            <button class="button bucket">
+              <span class="bucket-icon button-icon"></span>Paint bucket
+            </button>
+          </li>
+          <li class="tool-item">
+            <button class="button color-picker">
+              <span class="choose-color-icon button-icon"></span>Choose color
+            </button>
+          </li>
+          <li class="tool-item">
+            <button class="button move">
+              <span class="move-icon button-icon"></span>Move
+            </button>
+          </li>
+          <li class="tool-item">
+            <button class="button transform">
+              <span class="transform-icon button-icon"></span>Transform
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="color-box">
+        <ul class="color-list list">
+          <li class="color-item">
+            <div class="current-color color-icon"></div><span>Current color</span>
+          </li>
+          <li class="color-item">
+            <div class="previous-color color-icon"></div><span>Previous color</span>
+          </li>
+          <li class="color-item">
+            <div class="red-color color-icon"></div><span>Red</span>
+          </li>
+          <li class="color-item">
+            <div class="blue-color color-icon"></div><span>Blue</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+      <div class="figure" draggable="true"></div>
+    </div>
+
+  </main>
+  <script src="src/index.js"></script>
+</body>
+
+</html>

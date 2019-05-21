@@ -1,0 +1,32 @@
+{
+  "name": "palette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/Jmolly-2019Q1.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "rss",
+    "palette"
+  ],
+  "author": "jmolly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/Jmolly-2019Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/Jmolly-2019Q1#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "http-server": "^0.11.1"
+  }
+}

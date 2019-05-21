@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto-Regular", sans-serif;
+  color: #757575;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px 20px 15px;
+  margin-bottom: 80px;
+  box-shadow: 0 0 10px #808080;
+}
+
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.menu-toggle {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  background: url('./img/menu-toggle.png') no-repeat;
+  background-size: contain;
+}
+
+.dots {
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: url('./img/dots.png') no-repeat;
+  background-size: contain;
+}
+
+.heading {
+  font-family: "Roboto-Medium", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.main {
+  max-width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  list-style: none;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 30px;
+  text-align: start;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: "Roboto-Regular", sans-serif;
+  color: #757575;
+}
+
+.highlight-tool {
+  background-color: #dddddd;
+}
+
+.tool-box {
+  box-shadow: 0 0 10px #808080;
+  width: 230px;
+  margin-bottom: 90px;
+}
+
+.color-box {
+  box-shadow: 0 0 10px #808080;
+  width: 230px;
+  padding: 25px 20px;
+}
+
+.canvas {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 750px;
+}
+
+.figure {
+  width: 240px;
+  height: 240px;
+  background-color: #C4C4C4;
+  margin: 5px;
+}
+
+.figure.over {
+  border: 2px dashed #000000;
+}
+
+.button-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 35px;
+}
+
+.bucket-icon {
+  background: url('./img/bucket-tool.png') no-repeat;
+  background-size: contain;
+
+}
+
+.choose-color-icon {
+  background: url('./img/color-picker-tool.png') no-repeat;
+}
+
+.move-icon {
+  background: url('./img/move-tool.png') no-repeat;
+}
+
+.transform-icon {
+  background: url('./img/transform-tool.png') no-repeat;
+  background-size: contain;
+}
+
+
+.color-item {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.color-item:last-child {
+  margin-bottom: 0;
+}
+
+.color-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid #000000 ;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.current-color {
+  background: #C4C4C4;
+}
+
+.previous-color {
+  background: #41F795;
+}
+
+.red-color {
+  background: #F74141;
+}
+
+.blue-color {
+  background: #41B6F7;
+}
