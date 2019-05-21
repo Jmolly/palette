@@ -1,1 +1,1 @@
-https://github.com/Jmolly/palette.git
+https://jmolly.github.io/palette/
